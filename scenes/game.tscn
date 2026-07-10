@@ -226,6 +226,8 @@ tile_set = SubResource("TileSet_4lmg6")
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=949785929]
 position = Vector2(0, -7)
 zoom = Vector2(3, 3)
+limit_bottom = 180
+limit_smoothed = true
 position_smoothing_enabled = true
 
 [node name="AnimatableBody2D" parent="." unique_id=1881966629 instance=ExtResource("3_lnu2h")]
@@ -252,3 +254,6 @@ position = Vector2(201, 39)
 
 [node name="Coin2" parent="." unique_id=99008370 instance=ExtResource("4_lbhrr")]
 position = Vector2(50, 39)
+
+[node name="Coin6" parent="." unique_id=660392270 instance=ExtResource("4_lbhrr")]
+position = Vector2(402, 23)
