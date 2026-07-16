@@ -7,5 +7,5 @@ var score := 0
 
 func add_point():
 	score += 1
-	hud_score_label.text = "🪙 " + str(score) 
+	hud_score_label.text = str(score) 
 	game_end_label.text = "Congrats! You collected " + str(score) + " coins!"
